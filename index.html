@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Terra Natour</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/Faicon.png" type="image/x-icon">
+    <!-- Link BoxIcons -->
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link CSS Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!--header das redes sociais com os icones pegos no boxicon-->
+    <div class="social">
+
+        <div class="social__content container">
+            <div class="social__whatsApp">
+                <a href="https://api.whatsapp.com/send?phone=5511989314394" target="_blank">
+                    <i class='bx bxl-whatsapp'></i>
+                    <span>Contate-nos pelo WhatsApp</span>
+                </a>
+            </div>
+            <div class="social__media">
+                <a href="https://www.facebook.com/people/TerraNatour/100087776492434/"  target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/terranatour/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/?lang=pt-br" target="_blank"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <a id="topo" href="#">&#9650;</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- HEADER -->
+      <header class="header" id="header">
+        <div class="nav__bar container">
+            <a href="#" class="logo"><img src="assets/img/logo.png">
+            <h1 >Terra<span>Natour</span></a></h1>
+        
+                    <div class="nav" id="nav">
+                        <ul class="nav__menu">
+                            <li class="nav__item"><a href="#turismo" class="nav__link">Locais turisticos</a></li>
+                            <li class="nav__item"><a href="#serra" class="nav__link">Serras</a></li>
+                            <li class="nav__item"><a href="#praias" class="nav__link">Praias</a></li>
+                            <li class="nav__item"><a href="#cachoeiras" class="nav__link">Cachoeiras</a></li>
+                            <li class="nav__item"><a href="#sobrenos" class="nav__link">Sobre nós</a></li>
+                            <li class="nav__item"><a href="#conheçanos" class="nav__link">Conheça-nos</a></li>
+                        </ul>
+                    </div>
+
+            <div class="nav__login">
+                <div class="nav__user">
+                    <a href="#"><i class='bx bx-user'></i></a>
+                </div>
+                <div class="nav__cart">
+                    <a href="#"><i class='bx bxs-cart'></i></a>
+                </div>
+                <div onclick="menuShow()" class="nav__togglem" id="nav-togglem">
+                    <i  class='bx bx-menu'></i>
+                </div>
+            </div>
+        </div>
+        <div class="menu__mobile">
+            <ul>
+                <li class="nav__item"><a href="#turismo" class="nav__link">Locais turisticos</a></li>
+                <li class="nav__item"><a href="#serra" class="nav__link">Serras</a></li>
+                <li class="nav__item"><a href="#praias" class="nav__link">Praias</a></li>
+                <li class="nav__item"><a href="#cachoeiras" class="nav__link">Cachoeiras</a></li>
+                <li class="nav__item"><a href="#sobrenos" class="nav__link">Sobre nós</a></li>
+                <li class="nav__item"><a href="#conheçanos" class="nav__link">Conheça-nos</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+    <!--hero dlç1-->
+    <section class="swiper">
+    <div id="slider">
+        <figure>
+            <img src="assets/img/carrousel/viaje.png">
+            <img src="assets/img/carrousel/viagem_natureza-removebg-preview.png">
+            <img src="assets/img/carrousel/viaje.png">
+            <img src="assets/img/carrousel/viagem_natureza-removebg-preview.png">
+            <img src="assets/img/carrousel/viaje.png">
+        </figure>
+    </div>
+
+    <div id="slider">
+        <figure>
+            <img src="assets/img/carrousel/hero-1_resized.jpg">
+            <img src="assets/img/carrousel/hero-2_resized.jpg">
+            <img src="assets/img/carrousel/hero-1_resized.jpg">
+            <img src="assets/img/carrousel/hero-2_resized.jpg">
+            <img src="assets/img/carrousel/hero-1_resized.jpg">
+        </figure>
+    </div>
+</section>
+
+
+    <!--fim do hero1-->
+
+
+
+
+
+
+
+        <!-- ENVIRONMENT -->
+        <section class="environment section container">
+            <h1 class="section__title">Escolha sua viagem:</h1>
+
+            <div class="environment__itens">
+                <a href="#" class="environment__item">
+                    <img src="assets/img/praias-ilhas.png" alt="">
+                    <span>Praias e ilhas</span>
+                </a>
+
+                <a href="#" class="environment__item">
+                    <img src="assets/img/parques.png" alt="">
+                    <span>Serras</span>
+                </a>
+
+                <a href="#cachoeiras" class="environment__item">
+                    <img src="assets/img/cachoeiras.png" alt="">
+                    <span>Cachoeiras</span>
+                </a>
+
+                <a href="#" class="environment__item">
+                    <img src="assets/img/turismo.png" alt="">
+                    <span>Turismo</span>
+                </a>
+            </div>
+        </section>
+        <!-- fim do enviroment -->
+
+
+
+
+
+
+        <!--oferta deliciosas para gulosos-->
+         <section class="offer section container">
+            <h1 class="section__title">Viagens com desconto</h1>
+            <div class="offer__content" id="offer">
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/ofertas/oferta-1.jpg" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Ilhabela</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 700,00 = 3 dias</span>
+                        </div>
+                        <div class="offer__discount">
+                            <a href="#">PIX ou <i class='bx bx-barcode'></i>
+                                R% 590,00<br>com 16% de desconto</a>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/ofertas/oferta-2.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Lago de Furnas</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 399,00 = 3 dias</span>
+                        </div>
+                        <div class="offer__discount">
+                            <a href="#">PIX ou <i class='bx bx-barcode'></i>
+                                R$ 359,10<br>com 10% de desconto</a>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/ofertas/oferta-4.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Parque Ibirapuera</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 499,00 = 3 dias</span>
+                        </div>
+                        <div class="offer__discount">
+                            <a href="#">PIX ou <i class='bx bx-barcode'></i>
+                                R$ 449,10<br>com 10% de desconto</a>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/ofertas/oferta-5.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Cataratas do Iguaçu</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 700,00 = 3 dias</span>
+                        </div>
+                        <div class="offer__discount">
+                            <a href="#">PIX ou <i class='bx bx-barcode'></i>
+                                R$ 630,00<br>com 10% de desconto</a>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim do ofertas -->
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        <!-- sobrenos -->
+
+        <section class="service" id="service">
+            <div class="service__content container" id="sobrenos">
+                <div class="service__item">
+                    <img src="assets/img/sobrenos/velocidade (1).png" alt="">
+                    <p>Velocidade</p>
+                    <span>nós prezamos pelo seu tempo e conforto</span>
+                </div>
+
+                <div class="service__item">
+                    <img src="assets/img/sobrenos/ecologia (1).png" alt="">
+                    <p>ecologia</p>
+                    <span>Nosso planeta acima de tudo</span>
+                </div>
+
+                <div class="service__item">
+                    <img src="assets/img/sobrenos/atendimento-ao-cliente (1).png" alt="">
+                    <p>sem preucupação</p>
+                    <span>nós organizamos tudo</span>
+                </div>
+            </div>
+        </section>
+
+        <!--fim do sobre nos-->
+
+
+
+
+
+
+
+        <!--praias e ilhas-->
+        <section class="offer section container" id="praias">
+            <h1 class="section__title">Praias e Ilhas</h1>
+            <div class="offer__content" id="offer">
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/Praias-Ilhas/caminho-de-moises-barra-grande-maragogi.png" alt="">
+                        </div>
+                        <div class="offer__desc" id="praias">
+                            <p>Praia Maragogi 3_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 400,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/Praias-Ilhas/jericoacoara-lagoa-azul.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Praia Jericoacoara 3_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 600,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/Praias-Ilhas/lagoinha-ce.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Praia Lagoinha 4_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 620,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/Praias-Ilhas/praia-do-pipa-tibau-do-sul.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Praia do Pipa 2_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 700,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim do praias e ilhas-->
+
+
+
+
+
+
+        <!--serras-->
+
+
+        <section class="offer section container" id="serra">
+            <h1 class="section__title">Serras</h1>
+            <div class="offer__content" id="offer">
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/serras/serra_canastra.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Serra Canastra 3_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 500,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/serras/serra_capivara.png" alt="" id="serra">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Serra Capivara 3_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 599,99</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagm</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/serras/serra_catarinense.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Serra Catarinense 3_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 700,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/serras/serra_do_cipo.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Serra do Cipó 4_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 620,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--fim do serras-->
+
+
+
+
+
+        <!--cachoeiras-->
+
+        <section class="offer section container">
+            <h1 class="section__title" id="cachoeiras">Cachoeiras</h1>
+            <div class="offer__content" id="offer">
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/cachoeiras/cachoeira-catarata-couros-chapada-veadeiros-820x547.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Cataratas Couros 2_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 469,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/cachoeiras/cachoeiras-santa-barbara-chapada-dos-veadeiros-01-820x1223.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Santa Barbara 3_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 700,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/cachoeiras/cataratas-iguacu-cachoeiras-mais-bonitas-820x547.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Cataratas Iguaçu 4_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 800,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/cachoeiras/chapada-diamantina-cachoeira-do-buracao-820x547.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Chapada dimantina 2_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 379,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--fim do cachoeiras-->
+
+
+
+
+
+        <!--turismo-->
+
+        <section class="offer section container" id="turismo">
+            <h1 class="section__title">Turismo</h1>
+            <div class="offer__content" id="offer">
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/turismo/pao_açucar.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Pão de Açucar 4_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 599,99</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagm</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/turismo/paraty.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Paraty 3_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 640,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/turismo/praia_do_farol.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Praia do Farol 4_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 620,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+
+                    <div class="offer__item">
+                        <div class="offer__img">
+                            <img src="assets/img/turismo/redentor.png" alt="">
+                        </div>
+                        <div class="offer__desc">
+                            <p>Cristo Redentor 2_dias</p>
+                        </div>
+                        <div class="offer__price">
+                            <span>R$ 400,00</span>
+                        </div>
+                        <a href="#" class="btn">adicionar viagem</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--fim do turismo-->
+
+
+
+
+
+
+    
+
+         <!--inspiration-->
+         <h1 class="section__title" id="conheçanos">Nos conheça melhor</h1>
+         <section class="inspiration section container">
+             <div class="inspiration__content">
+                 <div class="inspiration__info">
+                     <h2>Siga <a href="#">Terra<span>Natour</span></a> no</h2>
+                     <h3>Instagram</h3>
+                     <i class='bx bxl-instagram'></i>
+                     <p>Acompanhe nossas novidades, promoções, novos destinos,
+                         e muito mais</p>
+                     <a href="https://www.instagram.com/terranatour/" target="_blank"" class="btn btn__outline">seguir</a>
+                 </div>
+             </div>
+ 
+                 <div class="container-inspiration">
+                     <input type="radio" name="slider" id="item-1" checked>
+                     <input type="radio" name="slider" id="item-2">
+                     <input type="radio" name="slider" id="item-3">
+                     <div class="cards">
+                         <label class="card" for="item-1" id="song-1">
+                             <img src="assets/img/inpiracao/Viva a natureza.png" >
+                         </label>
+                         <label class="card" for="item-2" id="song-2">
+                             <img src="assets/img/inpiracao/Instagram Post Dia da Amazônia 5 de Setembro Arara Verde.png" >
+                         </label>
+                         <label class="card" for="item-3" id="song-3">
+                             <img src="assets/img/inpiracao/Story Dia da Natureza.png" >
+                         </label>
+             
+                     </div>
+                 </div>  
+         </section>
+           <!--inspiration-->
+
+
+
+
+
+
+
+
+
+            <!-- NEWSLETTER -->
+        <!--Newsletter é um tipo de email informativo com recorrência de disparos. O email não é focado em
+             uma oferta específica, mas ela pode abordar diferentes assuntos, geralmente possui últimas
+             notícias ou destaques de um período. A newsletter é considerada a porta de entrada para ações
+             de Email Marketing.-->
+             <section class="newsletter section">
+                <div class="newsletter__content container">
+                    <div class="newsletter__text">
+                        <p>Receber nossas novidades e ofertas direto no seu e-mail?</p>
+                    </div>
+                    <div class="newsletter__form">
+                        <form >
+                            <input type="text" placeholder="Email mais usado">
+                            <button class="btn">Quero receber</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- fi do newsletter -->
+    
+
+
+
+
+
+
+
+
+
+
+ <!-- FOOTER -->
+ <footer class="footer container">
+    <div class="footer__content">
+        <div class="footer__data">
+            <h1><a href="#" class="logo">Terra<span>Natour</span></a></h1>
+            <div class="social__media">
+                <a href="https://www.facebook.com/people/TerraNatour/100087776492434/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/terranatour/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/?lang=pt-br" target="_blank"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+        <div class="footer__data">
+            <h2>minha conta</h2>
+            <ul>
+                <li><a href="#">meus pedidos</a></li>
+                <li><a href="#">minha conta</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__data">
+            <h2>horário de atendimento</h2>
+            <ul>
+                <li>segunda á sexta<br>das 9h às 18h</li>
+                <li>(11) 91583-2936</li>
+            </ul>
+        </div>
+
+            <div class="footer__data">
+                <ul>
+                    <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3110170596105!2d-46.73243088538491!3d-23.52131356599893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1b18d5d3b%3A0xe7f64ec44152fd8e!2sR.%20Guaip%C3%A1%2C%20817%20-%20Vila%20Leopoldina%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005089-001!5e0!3m2!1spt-BR!2sbr!4v1665659123021!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                </ul>
+        </div>
+    </div>
+</footer> 
+<!-- FOOTER END -->
+
+
+            <!-- javascript -->
+    <script src="assets/js/style.js"></script>
+</body>
+
+</html>
+    
+    
